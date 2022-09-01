@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ReoveryPassword.scss'
+import '../styles/RecoveryPassword.scss'
 
 // image
 import logo from '../logos/favicon_yard_sale.svg'
