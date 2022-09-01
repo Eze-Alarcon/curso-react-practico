@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Layout
+// Layouts
 import Layout from '../containers/Layout';
 
 // Components
