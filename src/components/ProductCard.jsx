@@ -1,10 +1,13 @@
 import React from "react"
 
+import IconAdd from '../icons/bt_add_to_cart.svg'
+const imageUrl = "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+
 const ProductCard = () => {
 	return (
 		<div className="product-card">
 			<img
-				src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+				src={imageUrl}
 				alt
 			/>
 			<div className="product-info">
@@ -13,7 +16,7 @@ const ProductCard = () => {
 					<p>Bike</p>
 				</div>
 				<figure>
-					<img src="./icons/bt_add_to_cart.svg" alt />
+					<img src={IconAdd} alt />
 				</figure>
 			</div>
 		</div>
